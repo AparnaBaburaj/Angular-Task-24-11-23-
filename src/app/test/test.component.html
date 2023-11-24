@@ -1,0 +1,30 @@
+<!--h1>{{heading|lowercase}}</h1>
+<h2>{{currentdate|date:'shortTime'}}</h2>
+<h3>{{decimalnum|currency:'INR':'2.1-2'}}</h3>
+<h4>{{'1.2'|percent}}</h4>
+<h4>{{decimalnum|number:'2.1-1'}}</h4>
+<h1>{{heading|slice:2:5}}</h1>
+<h1>{{person|json}}</h1>
+<h2>{{num|customPipe}}</h2>
+<h1>{{heading|customPipe}}</h1-->
+    <h1>Angular Built-in Pipes Example</h1>
+
+    <p><strong>Date Pipe:</strong> {{ currentdate | date:'short' }}</p>
+  
+    <p><strong>Text Transformation:</strong> {{ heading | uppercase }} / {{ heading | lowercase }}</p>
+  
+    <p><strong>Currency Pipe:</strong> {{ decimalnum | currency:'USD':'symbol':'1.2-2' }}</p>
+  
+    <p><strong>Number Pipes:</strong> {{ num | number:'3.2-2' }} / {{ num | percent:'1.2-2' }}</p>
+  
+    <p><strong>JSON Pipe:</strong> {{ person | json }}</p>
+  
+    <p><strong>Slice Pipe:</strong> {{ heading | slice:1:3 }}</p>
+  
+    <!--p><strong>Async Pipe (Simulated Promise):</strong> {{ heading | async }}</p>
+  
+    <h2>Object Key-Value Pairs:</h2>
+    <div *ngFor="let item of person | keyvalue">
+      <p>{{ item.key }}: {{ item.value }}</p>
+    </div-->
+  

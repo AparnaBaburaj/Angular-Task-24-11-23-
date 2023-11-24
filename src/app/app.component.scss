@@ -1,0 +1,29 @@
+nav {
+    background-color: #876060;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+  nav h3{
+   
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+  }
+
+  nav a {
+   
+    color: white;
+    text-align: center;
+    align-items: end;
+    justify-content: end;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 50px;
+  }
+
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
